@@ -7,7 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script>
-            funciton next()
+            function next()
             {
                 location.href = './attrak2.php';
             }
@@ -15,43 +15,20 @@
         <script>
             function storeData()
             {
-                if(typeof(Storage) !== "undefined")
-                {
-                    //if(tutti i campi sono riempiti)
-                    var q1p1 = document.getElementsByName("a1").value;
-                    sessionStorage.setItem("q1p1", q1p1);
-                sessionStorage.setItem("q2p1", document.getElementsByName('a2').value);
-                sessionStorage.setItem("q3p1", document.getElementsByName('a3').value);
-                sessionStorage.setItem("q4p1", document.getElementsByName('a4').value);
-                sessionStorage.setItem("q5p1", document.getElementsByName('a5').value);
-                sessionStorage.setItem("q6p1", document.getElementsByName('a6').value);
-                sessionStorage.setItem("q7p1", document.getElementsByName('a7').value);
-                sessionStorage.setItem("q8p1", document.getElementsByName('a8').value);
-                sessionStorage.setItem("q9p1", document.getElementsByName('a9').value);
-                sessionStorage.setItem("q10p1", document.getElementsByName('a10').value);
-                    sessionStorage.setItem("q11p1", document.getElementsByName('a1').checked);
-                    //else
-                    //code for empty fields
-                }
-                else
-                {
-                    alert("Sorry! No Web Storage support..");
-                }
+                var storeBox = {};
+                storeBox['q1p1'] = $('input[name=a1]:checked').val();
+                storeBox['q2p1'] = $('input[name=a2]:checked').val();
+                storeBox['q3p1'] = $('input[name=a3]:checked').val();
+                storeBox['q4p1'] = $('input[name=a4]:checked').val();
+                storeBox['q5p1'] = $('input[name=a5]:checked').val();
+                storeBox['q6p1'] = $('input[name=a6]:checked').val();
+                storeBox['q7p1'] = $('input[name=a7]:checked').val();
+                storeBox['q8p1'] = $('input[name=a8]:checked').val();
+                storeBox['q9p1'] = $('input[name=a9]:checked').val();
+                storeBox['q10p1'] = $('input[name=a10]:checked').val();
+                sessionStorage.setItem('storeBoxpage1', JSON.stringify(storeBox));
+                console.log(storeBox);
             }
-
-            /*function savePage1()
-            {
-                sessionStorage.setItem("q1p1", document.getElementsByName("a1").value);
-                sessionStorage.setItem("q2p1", document.getElementsByName("a2").value);
-                sessionStorage.setItem("q3p1", document.getElementsByName("a3").value);
-                sessionStorage.setItem("q4p1", document.getElementsByName("a4").value);
-                sessionStorage.setItem("q5p1", document.getElementsByName("a5").value);
-                sessionStorage.setItem("q6p1", document.getElementsByName("a6").value);
-                sessionStorage.setItem("q7p1", document.getElementsByName("a7").value);
-                sessionStorage.setItem("q8p1", document.getElementsByName("a8").value);
-                sessionStorage.setItem("q9p1", document.getElementsByName("a9").value);
-                sessionStorage.setItem("q10p1", document.getElementsByName("a10").value);
-            }*/
         </script>
     </head>
 
@@ -150,7 +127,7 @@
               <div class="bttn-group col-lg-12">
                 <input type="button" value="Undo" class="action-button btn btn-default">
                 <!-- <input type="submit" value="Submit" class="action-button btn btn-default btn-success" onclick="next()"> -->
-                <a href="#" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
+                <a href="attrak2.php" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
                 </div>
     </body>
 

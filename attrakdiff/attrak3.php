@@ -2,11 +2,26 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/table-style.css">
-        <link rel="stylesheet" href="./css/test.css">
         <link rel="stylesheet" href="./css/attrak.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script>
+            function storeData()
+            {
+                var storeBox = {};
+                storeBox['q1p3'] = $('input[name=c1]:checked').val();
+                storeBox['q2p3'] = $('input[name=c2]:checked').val();
+                storeBox['q3p3'] = $('input[name=c3]:checked').val();
+                storeBox['q4p3'] = $('input[name=c4]:checked').val();
+                storeBox['q5p3'] = $('input[name=c5]:checked').val();
+                storeBox['q6p3'] = $('input[name=c6]:checked').val();
+                storeBox['q7p3'] = $('input[name=c7]:checked').val();
+                storeBox['q8p3'] = $('input[name=c8]:checked').val();
+                storeBox['q9p3'] = $('input[name=c9]:checked').val();
+                sessionStorage.setItem('storeBoxpage3', JSON.stringify(storeBox));
+                console.log(storeBox);
+            }
+        </script>
     </head>
 
     <body>

@@ -5,6 +5,23 @@
         <link rel="stylesheet" href="./css/attrak.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script>
+            function storeData()
+            {
+                var storeBox = {};
+                storeBox['q1p2'] = $('input[name=b1]:checked').val();
+                storeBox['q2p2'] = $('input[name=b2]:checked').val();
+                storeBox['q3p2'] = $('input[name=b3]:checked').val();
+                storeBox['q4p2'] = $('input[name=b4]:checked').val();
+                storeBox['q5p2'] = $('input[name=b5]:checked').val();
+                storeBox['q6p2'] = $('input[name=b6]:checked').val();
+                storeBox['q7p2'] = $('input[name=b7]:checked').val();
+                storeBox['q8p2'] = $('input[name=b8]:checked').val();
+                storeBox['q9p2'] = $('input[name=b9]:checked').val();
+                sessionStorage.setItem('storeBoxpage2', JSON.stringify(storeBox));
+                console.log(storeBox);
+            }
+        </script>
     </head>
 
     <body>
@@ -102,7 +119,7 @@
         <div class="bttn-group col-lg-12">
                 <input type="button" value="Undo" class="action-button btn btn-default">
                 <!-- <input type="submit" value="Submit" class="action-button btn btn-default btn-success"> -->
-                <a href="attrak3.php" class="action-button btn btn-default btn-success">Next</a>
+                <a href="attrak3.php" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
                 </div>
     </body>
 </html>

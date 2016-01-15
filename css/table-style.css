@@ -1,0 +1,20 @@
+
+.val
+{
+    float:center;
+    width: 14%;
+    text-align: center;
+}
+
+.question
+{
+    float:center;
+    width: 30%;
+}
+
+.container
+{
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 20px;
+}
+

@@ -111,7 +111,6 @@
                 <input type="button" value="Undo" class="action-button btn btn-default">
                 <input type="submit" value="Submit" class="action-button btn btn-default">
                 </div>
-                <a href="#">test</a>
             </form>
         </div>
     </body>

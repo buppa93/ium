@@ -26,6 +26,12 @@
 
     <body>
          <div class="container">
+             <p>
+                With the help of the word pairs please enter what you consider the most appropriate description for UTAssistant.
+                 <br><br>
+                 Please click one item in every line.
+                 <br><br>
+             </p>
              <div class="row">
                 <div class="col-lg-3" style="background-color:lavender;">stylish</div>
                 <div class="col-lg-1" style="background-color:white;"><input type="radio" name="b1" value="1"></div>

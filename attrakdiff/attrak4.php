@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -57,3 +57,25 @@
            </form>
 
    </body>
+
+-->
+<DOCTYPE html>
+    <html>
+        <head>
+            <script>
+                var storebox1 = sessionStorage.getItem('storeBoxpage1');
+                var storebox2 = sessionStorage.getItem('storeBoxpage2');
+                var storebox3 = sessionStorage.getItem('storeBoxpage3');
+                window.location.assign("./src/send.php?sb1="+storebox1+"&sb2="+storebox2+"&sb3="+storebox3);
+            </script>
+        </head>
+        <body>
+            <div id="row1"></div>
+            <script>document.getElementById("row1").innerHTML = storebox1;</script>
+            <div id="row2"></div>
+            <script>document.getElementById("row2").innerHTML = storebox2;</script>
+            <div id="row3"></div>
+            <script>document.getElementById("row3").innerHTML = storebox3;</script>
+        </body>
+    </html>
+</DOCTYPE>

@@ -135,7 +135,7 @@
         <div class="bttn-group col-lg-12">
                 <input type="button" value="Undo" class="action-button btn btn-default">
                 <!-- <input type="submit" value="Submit" class="action-button btn btn-default btn-success"> -->
-                <a href="attrak3.php" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
+                <a href="attrak3.php" class="btn btn-primary action-button" onClick="storeData()">Next</a>
                 </div>
     </body>
 </html>

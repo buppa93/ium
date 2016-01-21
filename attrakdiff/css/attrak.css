@@ -1,4 +1,8 @@
 
+.elmts:hover
+{
+    background-color: #F5F5F5;
+}
 
 .row {
    margin-right: auto;
@@ -22,8 +26,11 @@
      margin-left: 50px;
     margin-right: 50px;
 }
+
 p{
     font-size: 150%;
     font-family: sans-serif;
 }
+
+
 

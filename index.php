@@ -24,14 +24,14 @@
                     </thead>
                     <tbody>
                         <tr id="row1">
-                            <td id="q1" class="question">Q1: I think that I would like to use this system frequently.</td>
-                            <!-- <td id="asw1"> -->
-                            <td class="val"><input type="radio" name="a1" value="1"></td>
-                            <td class="val"><input type="radio" name="a1" value="2"></td>
-                            <td class="val"><input type="radio" name="a1" value="3"></td>
-                            <td class="val"><input type="radio" name="a1" value="4"></td>
-                            <td class="val"><input type="radio" name="a1" value="5"></td>
-                            <!-- </td> -->
+                            <div class="col-lg-7 col-sm-7 col-xs-12"><td id="q1" class="question">Q1: I think that I would like to use this system frequently.</td></div>
+                            <div class="col-xs-12">
+                                <div class="col-lg-1 col-sm-1"><td class="val"><input type="radio" name="a1" value="1"></td></div>
+                                <div class="col-lg-1 col-sm-1"><td class="val"><input type="radio" name="a1" value="2"></td></div>
+                                <div class="col-lg-1 col-sm-1"><td class="val"><input type="radio" name="a1" value="3"></td></div>
+                                <div class="col-lg-1 col-sm-1"><td class="val"><input type="radio" name="a1" value="4"></td></div>
+                                <div class="col-lg-1 col-sm-1"><td class="val"><input type="radio" name="a1" value="5"></td></div>
+                            </div>
                         </tr>
                         <tr id="row2">
                             <td id="q2" class="question">Q2: I found the system unnecessarily complex.</td>

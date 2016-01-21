@@ -1,0 +1,14 @@
+.bttn-group
+{
+    float: right;
+}
+
+.list-group-item:hover
+{
+    background-color: #F5F5F5;
+}
+
+.panel-heading
+{
+    font-weight: bold;
+}

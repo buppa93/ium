@@ -40,108 +40,108 @@
 
              </p>
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">1.</div>
-                <div class="col-lg-3" style="background-color:lavender;">confusing</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c1" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c1" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c1" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c1" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c1" value="5"></div>
-                <div class="col-lg-3" style="background-color:lavender;">clearly structured</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">1.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">confusing</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c1" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c1" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c1" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c1" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c1" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">clearly structured</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">2.</div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">repelling</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c2" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c2" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c2" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c2" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c2" value="5"></div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">appealing</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">2.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">repelling</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c2" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c2" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c2" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c2" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c2" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">appealing</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">3.</div>
-                <div class="col-lg-3" style="background-color:lavender;">bold</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c3" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c3" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c3" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c3" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c3" value="5"></div>
-                <div class="col-lg-3" style="background-color:lavender;">cautious</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">3.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">bold</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c3" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c3" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c3" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c3" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c3" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">cautious</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">4.</div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">innovative</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c4" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c4" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c4" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c4" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c4" value="5"></div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">conservative</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">4.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">innovative</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c4" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c4" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c4" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c4" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c4" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">conservative</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">5.</div>
-                <div class="col-lg-3" style="background-color:lavender;">dull </div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c5" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c5" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c5" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c5" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c5" value="5"></div>
-                <div class="col-lg-3" style="background-color:lavender;">captivating</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">5.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">dull </div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c5" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c5" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c5" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c5" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c5" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">captivating</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">6.</div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">undemanding</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c6" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c6" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c6" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c6" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c6" value="5"></div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">challenging</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">6.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">undemanding</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c6" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c6" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c6" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c6" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c6" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">challenging</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">7.</div>
-                <div class="col-lg-3" style="background-color:lavender;">motivating</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c7" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c7" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c7" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c7" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c7" value="5"></div>
-                <div class="col-lg-3" style="background-color:lavender;">discouraging</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">7.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">motivating</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c7" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c7" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c7" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c7" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c7" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">discouraging</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">8.</div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">novel</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c8" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c8" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c8" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c8" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c8" value="5"></div>
-                <div class="col-lg-3" style="background-color:#ccffe6;">ordinary</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">8.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">novel</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c8" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c8" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c8" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c8" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c8" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:#ccffe6;">ordinary</div>
              </div>
 
              <div class="row">
-                <div class="col-lg-1" style="background-color:white;">9.</div>
-                <div class="col-lg-3" style="background-color:lavender;">unruly</div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c9" value="1"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c9" value="2"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c9" value="3"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c9" value="4"></div>
-                <div class="col-lg-1" style="background-color:white;"><input type="radio" name="c9" value="5"></div>
-                <div class="col-lg-3" style="background-color:lavender;">manageable</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">9.</div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">unruly</div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c9" value="1" checked></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c9" value="2"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c9" value="3"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c9" value="4"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="c9" value="5"></div>
+                <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">manageable</div>
              </div>
              <div class="row">
                  <div class="bttn-group col-lg-12">
                     <input type="button" value="Undo" class="action-button btn btn-default">
                     <!-- <input type="submit" value="Submit" class="action-button btn btn-default btn-success"> -->
-                    <a href="attrak4.php" class="action-button btn btn-default btn-success">Next</a>
+                    <a href="attrak4.php" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
                 </div>
              </div>
         </div>

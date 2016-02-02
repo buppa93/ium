@@ -8,12 +8,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script>
-            function next()
-            {
-                location.href = './attrak2.php';
-            }
-        </script>
-        <script>
             function storeData()
             {
                 var storeBox = {};
@@ -44,7 +38,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">1.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">human </div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a1" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a1" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a1" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a1" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a1" value="4"></div>
@@ -54,7 +48,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">2.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color: #ccffe6;">isolating</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a2" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a2" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a2" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a2" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a2" value="4"></div>
@@ -64,7 +58,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">3.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">pleasant</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a3" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a3" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a3" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a3" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a3" value="4"></div>
@@ -74,7 +68,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">4.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color: #ccffe6;">inventive</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a4" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a4" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a4" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a4" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a4" value="4"></div>
@@ -84,7 +78,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">5.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">simple</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a5" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a5" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a5" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a5" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a5" value="4"></div>
@@ -94,7 +88,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">6.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color: #ccffe6;">professional</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a6" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a6" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a6" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a6" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a6" value="4"></div>
@@ -104,7 +98,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">7.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">ugly</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a7" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a7" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a7" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a7" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a7" value="4"></div>
@@ -114,7 +108,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">8.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color: #ccffe6;">pratical</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a8" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a8" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a8" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a8" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a8" value="4"></div>
@@ -124,7 +118,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">9.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color:lavender;">likeable</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a9" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a9" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a9" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a9" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a9" value="4"></div>
@@ -134,7 +128,7 @@
              <div class="row">
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;">10.</div>
                 <div class="col-lg-3 col-sm-3 col-xs-3" style="background-color: #ccffe6;">cumbersome</div>
-                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a10" value="1"></div>
+                <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a10" value="1" checked></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a10" value="2"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a10" value="3"></div>
                 <div class="col-lg-1 col-sm-1 col-xs-1" style="background-color:white;"><input type="radio" name="a10" value="4"></div>
@@ -146,6 +140,7 @@
                 <!-- <input type="submit" value="Submit" class="action-button btn btn-default btn-success" onclick="next()"> -->
                 <a href="attrak2.php" class="action-button btn btn-default btn-success" onClick="storeData()">Next</a>
                 </div>
+
     </body>
 
 </html>

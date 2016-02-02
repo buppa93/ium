@@ -1,5 +1,6 @@
 <?php
 
+require ('./attrakdiff/scriptattr/calculateattrakdiff.php');
 class CalculateSUS
 {
     public function getScore($score)
@@ -79,5 +80,45 @@ class CalculateSUS
             }
         }
     }
+        public function devst($score)
+    {
+        $valoremedio = new CalculateAttrakdiff();
+        $calcolomedia= $valoremedio -> media($score);
+            $dev=0;
+        for($i=0; $i<count($score); $i++)
+            {
+                $dev+= ($score[$i] - $calcolomedia)* ($score[$i] - $calcolomedia);
+            }
+        $devstandard= $dev/(count($score)-1);
+        return sqrt($devstandard);
+    }
 
+    public function confidenza($score)
+    {
+        $deviazione= new CalculateSUS();
+        $devstandard=$deviazione-> devst($score);
+        $intconfidenza=1.96*($devstandard/sqrt(count($score)));
+        return $intconfidenza;
+    }
+
+    public function upper($score)
+    {
+        $valoremedio = new CalculateAttrakdiff();
+        $calcolomedia= $valoremedio -> media($score);
+        $confidenza= new CalculateSUS();
+        $conf=$confidenza-> confidenza($score);
+        $upperbound= $calcolomedia+($conf/2);
+        return $upperbound;
+    }
+
+    public function lower($score)
+    {
+        $valoremedio = new CalculateAttrakdiff();
+        $calcolomedia= $valoremedio -> media($score);
+        $confidenza= new CalculateSUS();
+        $conf=$confidenza-> confidenza($score);
+        $lowerbound= $calcolomedia-($conf/2);
+        return $lowerbound;
+    }
 }
+?>

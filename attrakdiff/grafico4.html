@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["","EFESTO"],
+          ['PQ',  0.795918],
+          ['HQ-I',  0.897959],
+          ['HQ-S',  1.040816],
+          ['ATT',  1.040816]
+
+
+        ]);
+
+
+        var options = {
+            title: 'Diagram of average values',
+            'height': 300,
+            'vAxis': {
+                gridlines: {
+                    count: 7
+                }
+            },
+            min:-3,
+            max:3,
+            legend: { position: 'bottom' },
+            pointsVisible: true,
+            };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+
+      }
+    </script>
+  </head>
+  <body>
+
+      <div id="curve_chart" style="width: 800px; height: 600px"></div>
+  </body>
+</html>
